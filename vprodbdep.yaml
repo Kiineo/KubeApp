@@ -2,22 +2,22 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: vprodb
-  labels: 
+  labels:
     app: vprodb
-spec: 
+spec:
   selector:
     matchLabels:
       app: vprodb
   replicas: 1
-  template: 
+  template:
     metadata:
-      labels: 
+      labels:
         app: vprodb
     spec:
       containers:
         - name: vprodb
           image: kiineo/vprofiledb:latest
-          volumeMounts: 
+          volumeMounts:
             - mountPath: /var/lib/mysql
               name: vpro-db-data
           ports:
@@ -26,11 +26,11 @@ spec:
           env:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
-                secretKeyRef: 
+                secretKeyRef:
                   name: app-secret
                   key: db-pass
       nodeSelector:
-        zone: us-east-1b
+        zone: us-east-1a
       volumes:
         - name: vpro-db-data
           awsElasticBlockStore:
@@ -41,10 +41,6 @@ spec:
         - name: busybox
           image: busybox:latest
           args: ["rm", "rf", "/var/lib/mysql/lost+found"]
-          volumeMounts: 
+          volumeMounts:
             - name: vpro-db-data
               mountPath: /var/lib/mysql
-
-
-
-
