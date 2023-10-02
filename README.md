@@ -34,7 +34,3 @@ This README provides an overview of the Kubernetes project and its components. T
 3. **Configure Routing**: Ensure that the CNAME record is correctly configured for hostname-to-Load Balancer mapping. Apply the Ingress YAML script to set up advanced routing.
 
 
-Please feel free to reach out for any questions or clarifications regarding this Kubernetes project.
-
-*Author: Michael*
-
