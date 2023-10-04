@@ -34,9 +34,9 @@ spec:
       volumes:
         - name: vpro-db-data
           awsElasticBlockStore:
-            volumeID: vol-04283e054445c662d
+            volumeID: vol-046de00dd303be2f1
             fsType: ext4
-
+  
       initContainers:
         - name: busybox
           image: busybox:latest
@@ -44,7 +44,3 @@ spec:
           volumeMounts:
             - name: vpro-db-data
               mountPath: /var/lib/mysql
-      tolerations:
-        - key: node-role.kubernetes.io/control-plane
-          operator: Exists
-          effect: NoSchedule
