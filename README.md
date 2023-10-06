@@ -38,10 +38,25 @@ Below are the Kubernetes definition files for deployment, services, secrets, and
 
 - **Database Deployment Configuration (Vprodbdep.yaml):** Defines the Deployment for the database, including volume mounts and environment variables.
 
-## The Final Deployment
-
-This section guides through the final steps to get everything up and running within the Kubernetes cluster. It includes applying configurations, ensuring that all components are deployed correctly, and verifying the setup.
-
 ## Linking LoadBalancer with Domain
 
 In the last step, the LoadBalancer is linked to the domain, making the Kubernetes application accessible to external users.
+
+### The URL is now under my domain
+
+![URL](https://github.com/Kiineo/KubeApp/assets/103956412/aee1eb18-610a-4fdf-9786-c9b6efde5923)
+
+
+## Confirming that the services are working
+
+### The HomePage is Working
+![HomePage](https://github.com/Kiineo/KubeApp/assets/103956412/6ca24fe0-0c13-4adc-80af-74d6030b526a)
+
+![RabbitMQ](https://github.com/Kiineo/KubeApp/assets/103956412/c1fbf2bb-994f-4991-8570-f821d1bf4489)
+
+![Memcache](https://github.com/Kiineo/KubeApp/assets/103956412/3243c86d-bf66-4c6b-8411-0d4189cca0dc)
+
+![memcache2](https://github.com/Kiineo/KubeApp/assets/103956412/9b6033af-8632-4b52-bf0c-cd2c96b1c3db)
+
+
+
