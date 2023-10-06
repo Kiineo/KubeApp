@@ -42,6 +42,3 @@ This section guides you through the final steps to get everything up and running
 
 In this final step, you'll link the LoadBalancer to your domain, ensuring that your Kubernetes application is accessible to external users.
 
-Feel free to customize these configurations and instructions to suit your specific project requirements and cluster setup.
-
-Enjoy working with Kubernetes!
