@@ -1,17 +1,15 @@
 # Kubernetes Project README
 
-## Title: EC2 KOPS Setup
+## EC2 KOPS Setup
 
-### Description
 In this initial step, we will set up the necessary infrastructure for your Kubernetes cluster. This includes creating an EC2 instance to serve as the KOPS server and setting up an S3 bucket for cluster state storage.
 
 ### Prerequisites
 - AWS account with appropriate IAM permissions
 - `kops` installed on your local machine
 
-## Title: Kubernetes Cluster
+## Kubernetes Cluster
 
-### Description
 This section focuses on creating and configuring the Kubernetes cluster itself. We will cover the Kubernetes definition and service files, including deployment configurations for various components.
 
 ### Kubernetes Definition Files
@@ -32,19 +30,16 @@ This section focuses on creating and configuring the Kubernetes cluster itself. 
 
 Labeling nodes based on their availability zones is essential for optimizing resource allocation and redundancy within the Kubernetes cluster.
 
-## Title: Containerized App Deployment
+## Containerized App Deployment
 
-### Description
 This section outlines the deployment of a containerized application pulled from DockerHub. We'll specify the image location and tag.
 
-## Title: The Final Deployment
+## The Final Deployment
 
-### Description
 This section guides you through the final steps to get everything up and running within your Kubernetes cluster. It includes applying configurations, ensuring that all components are deployed correctly, and verifying the setup.
 
-## Title: Linking LoadBalancer with Domain
+## Linking LoadBalancer with Domain
 
-### Description
 In this final step, you'll link the LoadBalancer to your domain, ensuring that your Kubernetes application is accessible to external users.
 
 Feel free to customize these configurations and instructions to suit your specific project requirements and cluster setup.
