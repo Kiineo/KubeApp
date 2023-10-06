@@ -14,6 +14,13 @@ Once the infrastructure is in place, the project proceeds to create and configur
 
 With the cluster ready, the project moves on to deploying the containerized application from DockerHub. The project specifies the image location and tag to ensure the application runs smoothly.
 
+The following containers are used in this deployment:
+
+- Application Container: kiineo/vprofileapp:latest
+- Database Container: kiineo/vprofiledb:latest
+- Memcached Container: memcached
+- RabbitMQ Container: rabbitmq
+
 ## EBS Volume for DB Pod
 
 To ensure data persistence for the database pod, an Elastic Block Store (EBS) volume is created and configured, which is then attached to the database pod.
