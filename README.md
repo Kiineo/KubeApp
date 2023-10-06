@@ -42,10 +42,9 @@ Below are the Kubernetes definition files for deployment, services, secrets, and
 
 In the last step, the LoadBalancer is linked to the domain, making the Kubernetes application accessible to external users.
 
-### The URL is now under my domain
+### The Load Balancer Has Been Linked To The Domain
 
 ![URL](https://github.com/Kiineo/KubeApp/assets/103956412/aee1eb18-610a-4fdf-9786-c9b6efde5923)
-
 
 ## Confirming that the services are working
 
