@@ -2,6 +2,10 @@
 
 This README is a comprehensive resource that provides a structured overview of the Kubernetes project. It offers practical insights and guidance on setting up a Kubernetes cluster and deploying a containerized application. 
 
+## Kubernetes Project Overview
+
+![Kubernetes Visual](https://github.com/Kiineo/KubeApp/assets/103956412/0496b051-c82f-4019-9e18-cd5f73b66c95)
+
 ## Parameters
 
 The project encapsulates a collection of critical parameters and configurations that underpin its core functionality:
