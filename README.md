@@ -1,6 +1,6 @@
 # README for the Kubernetes Project
 
-This README serves as an academic document providing a comprehensive overview of a project centered around the establishment of a Kubernetes cluster and the subsequent deployment of a containerized application. The document maintains a formal, factual, and objective tone, aiming to deliver information that is polished, error-free, and devoid of personal opinions.
+This README is a comprehensive resource that provides a structured overview of the Kubernetes project. It offers practical insights and guidance on setting up a Kubernetes cluster and deploying a containerized application. 
 
 ## Parameters
 
