@@ -82,5 +82,3 @@ The project encompasses a diverse array of Kubernetes definition files, each aff
 ### Linking LoadBalancer with Domain
 
 In the final project phase, the LoadBalancer assumes a pivotal role by becoming intricately linked with the project's domain. This integration culminates in the seamless accessibility of the Kubernetes application to external users.
-
-This academic document extends gratitude for its utilization as a reference in your Kubernetes project. For any queries or further assistance, kindly reach out for guidance.
